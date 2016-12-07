@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">JapaneseAlphabetQuiz</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="Hiragana">Hiragana Listing</string>
+    <string name="Katakana">Katakana Listing</string>
+    <string name="Quizzes">Quizzes</string>
+    
+    <string name="HiraganaHelp">View a list of Hiragana</string>
+    <string name="KatakanaHelp">View a list of Katakana</string>
+    <string name="QuizzesHelp">Select a quiz to do</string>
+    
+    <string name="QuizzesText1">Quiz 1</string>
+    <string name="QuizzesText2">Quiz 2</string>
+    <string name="QuizzesText3">Quiz 3</string>
+    
+</resources>

@@ -1,0 +1,124 @@
+<!-- 
+	Author: Shakib Small
+	Year: 2016
+	
+	Main Menu:
+	- Hiragana Listing
+	- Katakana Listing
+	- Quizes
+-->
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/TableLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EEEEEE"
+    tools:context="com.shakibsmall.japanesealphabetquiz.MainActivity" >
+    
+    
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ADC9E6"
+        android:gravity="center_vertical"
+        android:minHeight="75dp" >
+
+        <LinearLayout
+	        android:id="@+id/HiraganaListingLinearLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+	        <TextView
+	            android:id="@+id/HiraganaListingTextView"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:paddingLeft="5dp"
+	            android:text="@string/Hiragana"
+	       		android:onClick="onClick"
+	            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/HiraganaListingTextViewHelp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+	            android:paddingLeft="5dp"
+                android:text="@string/HiraganaHelp"
+	            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        </LinearLayout>
+        
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+	    android:background="#EEEEEE"
+        android:gravity="center_vertical"
+        android:minHeight="75dp" >
+
+        <LinearLayout
+	        android:id="@+id/KatakanaListingLinearLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+	        <TextView
+	            android:id="@+id/KatakanaListingTextView"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:paddingLeft="5dp"
+	            android:text="@string/Katakana"
+	        	android:onClick="onClick"
+	            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/KatakanaListingTextViewHelp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+	            android:paddingLeft="5dp"
+                android:text="@string/KatakanaHelp"
+	            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        </LinearLayout>
+        
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ADC9E6"
+        android:gravity="center_vertical"
+        android:minHeight="75dp" >
+
+        <LinearLayout
+	        android:id="@+id/QuizzesLinearLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+	        <TextView
+	            android:id="@+id/quizzesTextView"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:paddingLeft="5dp"
+	            android:textAppearance="?android:attr/textAppearanceLarge"
+	            android:text="@string/Quizzes"
+	      		android:onClick="onClick"/>
+
+            <TextView
+                android:id="@+id/quizzesTextViewHelp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+	            android:paddingLeft="5dp"
+                android:text="@string/QuizzesHelp"
+	            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        </LinearLayout>
+
+    </TableRow>
+
+</TableLayout>

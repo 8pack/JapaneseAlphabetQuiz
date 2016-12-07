@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+	Author: Shakib Small
+	Year: 2016
+	
+	List of Japanese Katakana symbols.
+	Not yet fully implemented.
+	The textview method of listing is the first implemention of listing 
+	that was had.
+	To be updated to the hiragana listing's implementation.
+-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#AAAAAA"
+    android:gravity="center_horizontal" >
+
+    <TextView
+        android:id="@+id/quizesTextView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="#ADC9E6"
+        android:text="ア"
+        android:textSize="60sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="#ADC9E6"
+        android:text="イ"
+        android:textSize="60sp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="#ADC9E6"
+        android:text="ウ"
+        android:textSize="60sp" />
+
+    <TextView
+        android:id="@+id/quizesTextView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/textView3"
+        android:layout_toRightOf="@+id/quizesTextView1"
+        android:background="#FFFFFF"
+        android:text="エ"
+        android:textSize="60sp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/textView5"
+        android:layout_toRightOf="@+id/textView3"
+        android:background="#FFFFFF"
+        android:text="オ"
+        android:textSize="60sp" />
+
+</RelativeLayout>
